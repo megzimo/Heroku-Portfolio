@@ -20,7 +20,7 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand">Meg Gallagher</a>
+            <div class="navbar-brand">Meg Gallagher</div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -36,42 +36,52 @@
     </header>
 
 
-    <div class="mainpara">
-        <h2>About Me</h2>
+    <div class="mainpara box effect2">
+        <h2 id="paraHeading">About Me</h2>
         <div class="row" id="mainRow">
-            <div class="col-xs-12 col-md-4">
-                <img src="css/images/profile.jpg" class="img-fluid" alt="Responsive image">
+            <div class="col-xs-12 col-md-4" id="imageCO">
+                <img src="css/images/profile.jpg" class="img-fluid profileImg" alt="Responsive image">
             </div>
-            <div class="col-xs-12 col-md-8">
+            <div class="col-xs-12 col-md-8" id="skills">
                 <ul>
                     <li>
-                        <i class="fas fa-angle-double-left">    </i>     diligent &amp; dedicated web developer with attention to detail     <i class="fas fa-angle-double-right"></i>
+                        <i class="fas fa-angle-double-left"></i>I am a <i class="fas fa-angle-double-right"></i>
                     </li>
                     <li>
-                        <i class="fas fa-angle-double-left">    </i>     eager learner of new programming languages &amp; technology       <i class="fas fa-angle-double-right"></i>
+                        eager learner of new programming languages &amp; technology
+                        <br>puzzle &amp; board game lover
+                        <br>music &amp; nature enthusiast
+                    </li>
+                    <br>
+                    <br>
+                    <li>
+                        <i class="fas fa-angle-double-left"></i> Language Proficiencies <i class="fas fa-angle-double-right"></i>
                     </li>
                     <li>
-                        <i class="fas fa-angle-double-left">    </i>     puzzle &amp; board game lover       <i class="fas fa-angle-double-right"></i>
-                    </li>
-                    <li>
-                        <i class="fas fa-angle-double-left">    </i>     music &amp; nature enthusiast       <i class="fas fa-angle-double-right"></i>
+                        JavaScript  ||  jQuery  ||  React  ||  MySQL  ||  MongoDB
+                        <br>Nodejs  ||  Express  ||  MERN Stack  ||  RESTful API  ||  AJAX/JSON
                     </li>
                 </ul>
             </div>
         </div>
         <div class="row mediaLinks">
-            <div class="offset-6">
-            </div>
-            <div class="col-3" id="github">
+            <div class="col-2" id="github">
                 <a href="https://github.com/megzimo?tab=following">
-                    <i class="fab fa-github"><p id="fab"> Github</p></i>
+                    <i class="fab fa-github">
+                        <p id="fab"> Github</p>
+                    </i>
                 </a>
             </div>
-            <div class="col-3" id="linkedin">
+            <div class="col-2" id="linkedin">
                 <a href="https://www.linkedin.com/in/mgallagher6/">
-                    <i class="fab fa-linkedin"><p id="fab">   LinkedIn</p></i>
+                    <i class="fab fa-linkedin">
+                        <p id="fab"> LinkedIn</p>
+                    </i>
                 </a>
             </div>
+            <div class="offset-8">
+            </div>
+
         </div>
     </div>
 </body>
@@ -79,7 +89,7 @@
 
 <footer class="footer">
     <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">© Copyright
+    <div class="footer-copyright text-center py-3">© Copyright Meg Gallagher
     </div>
     <!-- Copyright -->
 </footer>
