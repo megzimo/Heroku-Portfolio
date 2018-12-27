@@ -53,7 +53,7 @@ navbar{
     width: 960px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10rem;
+    margin-top: 5rem;
 }
  
 .mainPortfolio{
@@ -65,7 +65,7 @@ navbar{
     width: 960px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 190px;
+    margin-top: 120px;
 }
 
 img {
@@ -132,8 +132,6 @@ nav a:hover {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    /* align-content: space-around;
-    align-items: space-around; */
     width: 600px;
 }
 
@@ -199,13 +197,6 @@ h4 {
   width: 100%;
   bottom: 0;
 }
-
-/* header {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.16), 0 2px 10px rgba(0, 0, 0, 0.12);
-} */
 
 .bg-light{
     background-color: rgba(204, 204, 204, .5)!important;
