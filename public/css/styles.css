@@ -50,11 +50,15 @@ header{
     width: 150px;
 }
 
+li > .about{
+    text-decoration: underline !important;
+}
+
 .mainpara {
     background-color: rgba(204, 204, 204, .5);
     padding-left: 25px;
     padding-right: 25px;
-    padding-top: 10px;
+    padding-top: 20px;
     width: 960px;
     margin-left: auto;
     margin-right: auto;
@@ -195,7 +199,7 @@ h4 {
 .footer {
     font-size: 11px;
     width: 100%;
-    position: absolute;
+    position: relative;
     bottom: 0;
 }
 
