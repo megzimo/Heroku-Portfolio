@@ -124,11 +124,10 @@ nav a:visited {
 nav a:hover {
     text-decoration: none;
     color: #000;
-    border-radius: 15px;
     transform: scale(1.01); 
     box-shadow: 
-        /* 0em 0em 0em .2em rgba(9, 128, 128, 0.1),  */
-        0em 0em 0em .2em rgba(9, 128, 128, .2)
+        0em .2em 0em 0em rgba(9, 128, 128, 0.1), 
+        0em .1em 0em 0em rgba(9, 128, 128, .2)
 
 }
 
