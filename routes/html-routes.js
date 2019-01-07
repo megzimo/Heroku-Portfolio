@@ -20,6 +20,11 @@ module.exports = function(app) {
   app.get("/portfolio", function(req, res) {
     res.sendFile(path.join(__dirname, "../public/portfolio.html"));
   });
+
+  app.get("/connect", function(req, res) {
+    res.sendFile(path.join(__dirname, "../public/connect.html"));
+  });
+
 };
 
   // blog route loads blog.html
